@@ -9,8 +9,6 @@ const Input = ({placeHolder, type, name, value, onChange}) => {
             value={value === null ? "" : value}
             onChange={onChange === null ? "" : onChange}
             className="
-                max-w-sm  
-                max-sm:max-w-xs 
                 w-full 
                 border-[1px] 
                 border-secondary 

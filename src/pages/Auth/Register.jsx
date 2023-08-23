@@ -1,7 +1,10 @@
 import React, { useState } from 'react'
+import {Link} from 'react-router-dom'
 
 import Input from '../../components/Input'
 import Button from '../../components/Button.jsx'
+
+import {BuyNow} from '../../assets/img/index.js'
 
 const Register = () => {
 
@@ -26,8 +29,9 @@ const Register = () => {
 
 
     return (
-        <div className='h-screen flex flex-col items-center justify-center gap-5'>
-            <h1 className='text-2xl font-palanquin font-semibold text-primary'>Welcome to Buy Me</h1>  
+        <div className='mt-32 relative max-w-sm max-sm:max-w-xs mx-auto flex flex-col items-center justify-center gap-5'>
+            <h1 className='text-3xl cursor-default font-palanquin font-semibold text-primary'>Welcome to BuyNow</h1>  
+            <p className='text-2xl cursor-default font-palanquin text-primary'>Sign Up</p>
             <form 
                 action="html"
                 onSubmit={handleSubmit}
@@ -39,7 +43,8 @@ const Register = () => {
                 <Input type="password" placeHolder="Confirm Password" name={cfPassword} onChange={(e) => setCfPassword(e.target.value)} value={cfPassword}/>
                 <Button type="submit" btnLabel="Register" />
             </form>
-        </div>
+            <Link to='/login' className='text-sm text-primary hover:text-btn focus:text-btn underline cursor-pointer absolute -bottom-[5%] right-0'>Already have an accout.</Link>
+        </div> 
     )
 }
 
