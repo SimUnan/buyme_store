@@ -8,16 +8,15 @@ import Navbar from './components/Navbar.jsx'
 
 
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import HomePage from './pages/Home/HomePage'
 
 const App = () => {
   return (
     <main className=''>
       <Router>
         <Navbar />
-        <Routes>
-          <Route path='/login' element={<Login />}/>  
-          <Route path='/register' element={<Register />}/>
-        </Routes>
+        <Auth />
+        <HomePage />
       </Router>
     </main>
   )

@@ -7,8 +7,10 @@ import Login from './Login'
 const Auth = () => {
     return (
         <section className='max-container'>
-            <Route path='/' element={<Login />}/>     
-            <Route path='/register' element={<Register />}/>              
+            <Routes>
+                <Route path='/login' element={<Login />}/>     
+                <Route path='/register' element={<Register />}/>
+            </Routes>              
         </section>
     )
 }

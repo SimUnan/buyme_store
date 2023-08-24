@@ -18,3 +18,12 @@
     margin: 0 auto;
   }
 }
+
+@layer utilities{
+  .padding {
+    @apply sm:px-16 px-8 sm:py-12 py-6
+  }
+  .padding-x {
+    @apply sm:px-28 px-12
+  }
+}

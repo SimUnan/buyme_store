@@ -29,7 +29,7 @@ const Register = () => {
 
 
     return (
-        <div className='mt-32 relative max-w-sm max-sm:max-w-xs mx-auto flex flex-col items-center justify-center gap-5'>
+        <div className='mt-16 relative max-w-sm max-sm:max-w-xs mx-auto flex flex-col items-center justify-center gap-5'>
             <h1 className='text-3xl cursor-default font-palanquin font-semibold text-primary'>Welcome to BuyNow</h1>  
             <p className='text-2xl cursor-default font-palanquin text-primary'>Sign Up</p>
             <form 
