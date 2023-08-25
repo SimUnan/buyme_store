@@ -4,7 +4,7 @@ import {Cloth1} from '../assets/img/index'
 
 const ProductCard = ({imgUrl, price, btnLabel, productTag}) => {
     return (
-        <div className='relative bg-backgroundColor px-4 py-4 min-w-[170px] min-h-[220px] flex flex-col items-center justify-center rounded-md shadow-xl'>
+        <div className='relative bg-backgroundColor px-4 py-4 min-w-[170px] h-[225px] flex flex-col items-center justify-center rounded-md shadow-xl'>
             <img src={imgUrl} alt="" className='cursor-pointer object-center p-1'/>
             <div className='flex items-center justify-between gap-3 mt-3'>
                 <p className='text-redTxt cursor-default text-base max-sm:text-sm font-montserrat'>{price} Only</p>
