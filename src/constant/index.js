@@ -21,51 +21,97 @@ export const navbarLinks = [
 
 export const homePageProducts = [
     {
-        title: "30% off",
-        imgUrl: Cloth1,
-        price: "8$",
-        btnLabel: "+ Order"
+        productType: "Discount",
+        allProducts: [
+            {
+                type: "discount",
+                title: "30% off",
+                imgUrl: Cloth1,
+                price: "8$",
+                btnLabel: "+ Order"
+            },
+            {
+                type: "discount",
+                title: "20% off",
+                imgUrl: Cloth2,
+                price: "4$",
+                btnLabel: "+ Order"
+            },
+            {
+                type: "discount",
+                title: "40% off",
+                imgUrl: Cloth3,
+                price: "5$",
+                btnLabel: "+ Order"
+            },
+            {
+                type: "discount",
+                title: "20% off",
+                imgUrl: Cloth4,
+                price: "6$",
+                btnLabel: "+ Order"
+            },
+            {
+                type: "discount",
+                title: "60% off",
+                imgUrl: Cloth5,
+                price: "3$",
+                btnLabel: "+ Order"
+            },
+            {
+                type: "discount",
+                title: "30% off",
+                imgUrl: Cloth6,
+                price: "2$",
+                btnLabel: "+ Order"
+            },
+        ]
     },
     {
-        title: "20% off",
-        imgUrl: Cloth2,
-        price: "4$",
-        btnLabel: "+ Order"
-    },
-    {
-        title: "40% off",
-        imgUrl: Cloth3,
-        price: "5$",
-        btnLabel: "+ Order"
-    },
-    {
-        title: "20% off",
-        imgUrl: Cloth4,
-        price: "6$",
-        btnLabel: "+ Order"
-    },
-    {
-        title: "60% off",
-        imgUrl: Cloth5,
-        price: "3$",
-        btnLabel: "+ Order"
-    },
-    {
-        title: "30% off",
-        imgUrl: Cloth6,
-        price: "2$",
-        btnLabel: "+ Order"
-    },
-    {
-        title: "80% off",
-        imgUrl: Cloth7,
-        price: "8$",
-        btnLabel: "+ Order"
-    },
-    {
-        title: "New",
-        imgUrl: Cloth1,
-        price: "7$",
-        btnLabel: "+ Order"
+        productType: "New",
+        allProducts: [
+            {   
+                type: "new",
+                title: "New",
+                imgUrl: Cloth1,
+                price: "8$",
+                btnLabel: "+ Order"
+            },
+            {
+                type: "new",
+                title: "New",
+                imgUrl: Cloth2,
+                price: "4$",
+                btnLabel: "+ Order"
+            },
+            {
+                type: "new",
+                title: "Hot",
+                imgUrl: Cloth3,
+                price: "5$",
+                btnLabel: "+ Order"
+            },
+            {
+                type: "new",
+                title: "Hot",
+                imgUrl: Cloth4,
+                price: "6$",
+                btnLabel: "+ Order"
+            },
+            {
+                type: "new",
+                title: "New",
+                imgUrl: Cloth5,
+                price: "3$",
+                btnLabel: "+ Order"
+            },
+            {
+                type: "new",
+                title: "New",
+                imgUrl: Cloth6,
+                price: "2$",
+                btnLabel: "+ Order"
+            },
+        ]
     },
 ]
