@@ -11,10 +11,10 @@ const Home = () => {
                 {/* discount products */}
                 {homePageProducts.map((product) => (
                     <div className='flex flex-col items-start justify-center gap-y-4 px-3'>
-                        <h1 className='mb-2 text-xl font-palanquin font-semibold '>{product.productType}</h1>
+                        <h1 className='mb-2 text-xl font-palanquin font-semibold '>{product.productTag}</h1>
                         <div className='flex items-center justify-center flex-wrap gap-5 max-sm:gap-3'>
                             {product.allProducts.map((allProduct) =>(
-                            <ProductCard imgUrl={allProduct.imgUrl} price={allProduct.price} btnLabel={allProduct.btnLabel} productTag={allProduct.title} productType={allProduct.type}/>
+                            <ProductCard imgUrl={allProduct.imgUrl} price={allProduct.price} discountedPrice={allProduct.discountedPrice} btnLabel={allProduct.btnLabel} productTitle={allProduct.title} productTag={allProduct.tag}/>
                             ))}
                         </div>
                     </div>    

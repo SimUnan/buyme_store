@@ -21,45 +21,52 @@ export const navbarLinks = [
 
 export const homePageProducts = [
     {
-        productType: "Trending",
+        productTag: "Trending",
         allProducts: [
             {
-                type: "trending",
+                tag: "trending",
+                type: "hoodie",
                 title: "",
                 imgUrl: Cloth1,
                 price: "8$",
                 btnLabel: "+ Order"
             },
             {
-                type: "trending",
+                tag: "trending",
+                type: "tee",
                 title: "",
                 imgUrl: Cloth2,
                 price: "5$",
                 btnLabel: "+ Order"
             },
             {
-                type: "trending",
+                tag: "trending",
+                type: "hoodie",
                 title: "",
                 imgUrl: Cloth3,
                 price: "6.5$",
                 btnLabel: "+ Order"
             },
             {
-                type: "trending",
+                tag: "trending",
+                type: "hoodie",
                 title: "",
                 imgUrl: Cloth4,
                 price: "12$",
                 btnLabel: "+ Order"
             },
             {
-                type: "trending",
+                tag: "trending",
+                type: "hoodie",
                 title: "",
                 imgUrl: Cloth5,
                 price: "10$",
                 btnLabel: "+ Order"
             },
             {
-                type: "trending",
+                tag: "trending",
+                type: "hoodie",
+                type: "tee",
                 title: "",
                 imgUrl: Cloth6,
                 price: "8$",
@@ -68,10 +75,11 @@ export const homePageProducts = [
         ]
     },
     {
-        productType: "New",
+        productTag: "New",
         allProducts: [
             {   
-                type: "new",
+                tag: "new",
+                type: "tee",
                 title: "New",
                 imgUrl: Cloth7,
                 status: "Available in Stock",
@@ -80,7 +88,8 @@ export const homePageProducts = [
                 btnLabel: "+ Order"
             },
             {
-                type: "new",
+                tag: "new",
+                type: "jean",
                 title: "New",
                 imgUrl: Cloth8,
                 status: "Available in Stock",
@@ -89,7 +98,8 @@ export const homePageProducts = [
                 btnLabel: "+ Order"
             },
             {
-                type: "new",
+                tag: "new",
+                type: "tee",
                 title: "Hot",
                 imgUrl: Cloth9,
                 status: "Out of Stock",
@@ -98,7 +108,8 @@ export const homePageProducts = [
                 btnLabel: "+ Order"
             },
             {
-                type: "new",
+                tag: "new",
+                type: "hoodie",
                 title: "Hot",
                 imgUrl: Cloth10,
                 status: "Available in Stock",
@@ -107,7 +118,8 @@ export const homePageProducts = [
                 btnLabel: "+ Order"
             },
             {
-                type: "new",
+                tag: "new",
+                type: "jean",
                 title: "New",
                 imgUrl: Cloth11,
                 status: "Available in Stock",
@@ -116,7 +128,8 @@ export const homePageProducts = [
                 btnLabel: "+ Order"
             },
             {
-                type: "new",
+                tag: "new",
+                type: "jean",
                 title: "New",
                 imgUrl: Cloth12,
                 status: "Out of Stock",
@@ -127,48 +140,215 @@ export const homePageProducts = [
         ]
     },
     {
-        productType: "Discount",
+        productTag: "Discount",
         allProducts: [
             {
-                type: "discount",
+                tag: "discount",
+                type: "tee",
                 title: "30% off",
                 imgUrl: Cloth13,
-                price: "5.20$",
+                price: "8$",
+                discountedPrice: "5.20",
                 btnLabel: "+ Order"
             },
             {
-                type: "discount",
+                tag: "discount",
+                type: "tee",
                 title: "20% off",
                 imgUrl: Cloth14,
                 price: "4$",
+                discountedPrice: "5.20",
                 btnLabel: "+ Order"
             },
             {
-                type: "discount",
+                tag: "discount",
+                type: "hoodie",
                 title: "40% off",
                 imgUrl: Cloth15,
+                price: "5$",
+                discountedPrice: "5.20",
+                btnLabel: "+ Order"
+            },
+            {
+                tag: "discount",
+                type: "tee",
+                title: "20% off",
+                imgUrl: Cloth16,
+                price: "6$",
+                discountedPrice: "5.20",
+                btnLabel: "+ Order"
+            },
+            {
+                tag: "discount",
+                type: "hoodie",
+                title: "60% off",
+                imgUrl: Cloth17,
+                price: "3$",
+                discountedPrice: "5.20",
+                btnLabel: "+ Order"
+            },
+            {
+                tag: "discount",
+                type: "tee",
+                title: "30% off",
+                imgUrl: Cloth18,
+                price: "2$",
+                discountedPrice: "1.70$",
+                btnLabel: "+ Order"
+            },
+        ]
+    },
+]
+
+
+export const productPageProducts = [
+    {
+        productType: "Hoodie",
+        allProducts: [
+            {
+                tag: "trending",
+                type: "hoodie",
+                title: "",
+                imgUrl: Cloth1,
+                price: "8$",
+                btnLabel: "+ Order"
+            },
+            {
+                tag: "discount",
+                type: "hoodie",
+                title: "60% off",
+                imgUrl: Cloth17,
+                price: "3$",
+                discountedPrice: "5.20",
+                btnLabel: "+ Order"
+            },
+            {
+                tag: "trending",
+                type: "hoodie",
+                title: "",
+                imgUrl: Cloth3,
+                price: "6.5$",
+                btnLabel: "+ Order"
+            },
+            {
+                tag: "trending",
+                type: "hoodie",
+                title: "",
+                imgUrl: Cloth4,
+                price: "12$",
+                btnLabel: "+ Order"
+            },
+            {
+                tag: "trending",
+                type: "hoodie",
+                title: "",
+                imgUrl: Cloth5,
+                price: "10$",
+                btnLabel: "+ Order"
+            },
+            {
+                tag: "trending",
+                type: "hoodie",
+                type: "tee",
+                title: "",
+                imgUrl: Cloth6,
+                price: "8$",
+                btnLabel: "+ Order"
+            },
+        ]
+    },
+    {
+        productType: "Tee",
+        allProducts: [
+            {   
+                tag: "new",
+                type: "tee",
+                title: "New",
+                imgUrl: Cloth7,
+                status: "Available in Stock",
+                size: "L",
+                price: "7$",
+                btnLabel: "+ Order"
+            },
+            {
+                tag: "trending",
+                type: "tee",
+                title: "",
+                imgUrl: Cloth2,
                 price: "5$",
                 btnLabel: "+ Order"
             },
             {
-                type: "discount",
+                tag: "new",
+                type: "tee",
+                title: "Hot",
+                imgUrl: Cloth9,
+                status: "Out of Stock",
+                size: "L",
+                price: "5$",
+                btnLabel: "+ Order"
+            },
+            
+            {
+                tag: "discount",
+                type: "tee",
+                title: "20% off",
+                imgUrl: Cloth14,
+                price: "4$",
+                discountedPrice: "5.20",
+                btnLabel: "+ Order"
+            },
+            {
+                tag: "discount",
+                type: "tee",
                 title: "20% off",
                 imgUrl: Cloth16,
                 price: "6$",
+                discountedPrice: "5.20",
                 btnLabel: "+ Order"
             },
             {
-                type: "discount",
-                title: "60% off",
-                imgUrl: Cloth17,
-                price: "3$",
-                btnLabel: "+ Order"
-            },
-            {
-                type: "discount",
+                tag: "discount",
+                type: "tee",
                 title: "30% off",
                 imgUrl: Cloth18,
                 price: "2$",
+                discountedPrice: "1.70$",
+                btnLabel: "+ Order"
+            },
+        ]
+    },
+    {
+        productType: "Jean",
+        allProducts: [
+            {
+                tag: "new",
+                type: "jean",
+                title: "New",
+                imgUrl: Cloth8,
+                status: "Available in Stock",
+                size: "XL",
+                price: "11$",
+                btnLabel: "+ Order"
+            },
+            {
+                tag: "new",
+                type: "jean",
+                title: "New",
+                imgUrl: Cloth11,
+                status: "Available in Stock",
+                size: "L",
+                price: "20$",
+                btnLabel: "+ Order"
+            },
+            {
+                tag: "new",
+                type: "jean",
+                title: "New",
+                imgUrl: Cloth12,
+                status: "Out of Stock",
+                size: "L",
+                price: "18$",
                 btnLabel: "+ Order"
             },
         ]
